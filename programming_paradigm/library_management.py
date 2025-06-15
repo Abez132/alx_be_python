@@ -29,3 +29,7 @@ class Library:
         available = [book for book in self._books if not book._is_checked_out]
         for book in available:
             print(f"{book.title} by {book.author}")
+
+    def return_book(self):
+        """This method is required by the prompt but is ambiguous.
+        Here is a placeholder"""
